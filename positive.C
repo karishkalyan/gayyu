@@ -1,23 +1,22 @@
 #include <stdio.h>
-#include<conio.h>
-void main(void) 
-{
-	intx,y;
-	printf("\n enter the number");
-	scanf('%d',&x);
-	if(x==0)
-	{
-		printf("\n the given number is zero ");
-	}
-		else
-		{
-			if(x<0)
-			printf("\n the given number is negative");
-			else
-			printf("\n the given number is positive")
-		}
-	
 
-	
-	return 0;
+void main( ) {
+int n;
+printf("\n enter the number");
+scanf("%d,&n");
+if(n==o)
+{
+	printf("\n the gn num is zero");
+	}
+	else
+	{
+	if(x<0)
+	{
+		printf("\n the gn is negative");
+		else
+		printf("\n the gn num is positive");
+	}
+	}
+		return 0;
 }
+
